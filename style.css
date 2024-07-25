@@ -1,4 +1,6 @@
 body, html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -13,12 +15,47 @@ body, html {
 }
 
 .left-child {
+    padding: 0;
+    margin: 0;
 }
 
 .right-child {
     display: flex;
-    flex: auto;
     flex-direction: column;
+
+    padding: 15vh 0 15vh 0;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 92px 0 32px;
+    margin: 0;
+
+    font-size: 18px;
+}
+
+.intro-2 {
+    padding: 32px 0 64px 0;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-p1 {
+    padding: 0 92px 0 32px;
+}
+
+.form-child-grid {
+    display: flex;
+    flex-direction: row;
+
+    padding: 0 0 0 32px;
+    margin: 0;
+    gap: 64px;
 }
 
 img {
@@ -27,4 +64,9 @@ img {
 
     padding: 0;
     margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
 }
