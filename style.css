@@ -5,6 +5,8 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100vh;
+
+    --bg-grey: #f8f9fa;
 }
 
 .hero-section {
@@ -25,6 +27,7 @@ body, html {
     flex-direction: column;
 
     padding: 18vh 0 18vh 0;
+    background-color: var(--bg-grey);
 }
 
 .text-container {
@@ -43,10 +46,14 @@ body, html {
 .form-container {
     display: flex;
     flex-direction: column;
+
+    padding: 32px 0 32px 0;
+    background-color: white;
+    box-shadow: 0 0 12px 1px rgba(128, 128, 128, 0.21);
 }
 
 .form-p1 {
-    padding: 0 92px 0 32px;
+    padding: 0 92px 16px 32px;
 }
 
 .form-child-grid {
@@ -56,6 +63,31 @@ body, html {
     padding: 0 0 0 32px;
     margin: 0;
     gap: 72px;
+}
+
+.fcg-left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.fcg-right {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.fcg-child {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+
+
+label {
+    font-size: 14px;
+    color: rgb(45, 51, 64);
 }
 
 img {
