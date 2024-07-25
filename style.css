@@ -1,0 +1,30 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.hero-section {
+    display: grid;
+    grid-template-columns: 40vw 60vw;
+
+    margin: 0;
+    padding: 0;
+}
+
+.image-container {
+}
+
+.form-container {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+}
+
+img {
+    width: 40vw;
+    height: 100vh;
+
+    padding: 0;
+    margin: 0;
+}
