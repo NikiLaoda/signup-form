@@ -8,11 +8,11 @@
 </head>
 <body>
     <div class="hero-section">
-        <div class="image-container">
+        <div class="left-child">
             <img src="./images/leaves-image.jpg" alt="Leaves image">
         </div>
 
-        <div class="form-container">
+        <div class="right-child">
             <p class="intro-1">This is not a real online service! you know you need
                 something like this in your life to help you realize
                 your deepest dreams.
@@ -21,9 +21,47 @@
 
             <p class="intro-2">You know you want to.</p>
 
-            <form action="example.com/path" method="post"></form>
-            <label for="first-name">First name</label>
-            <input type="text">
+            <form action="example.com/path" method="post" class="form-container">
+                <p class="form-p1">Let's do this!</p>
+
+                <div class="form-child-grid">
+                    <div class="fcg-left">
+                        <div class="fcg-child">
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text">
+                        </div>
+
+                        <div class="fcg-child">
+                            <label for="e_mail">EMAIL</label>
+                            <input type="email" name="" id="e-mail">
+                        </div>
+
+                        <div class="fcg-child">
+                            <label for="pass">PASSWORD</label>
+                            <input type="password" name="" id="pass-word">
+                        </div>
+                    </div>
+
+                    <div class="fcg-right">
+                        <div class="fcg-child">
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" name="" id="last-name">
+                        </div>
+
+                        <div class="fcg-child">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="number" name="" id="phone-number">
+                        </div>
+
+                        <div class="fcg-child">
+                            <label for="confirm-pass">CONFIRM PASSWORD</label>
+                            <input type="password" name="" id="confirm-password">
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+            </div>
         </div>
     </div>
 </body>

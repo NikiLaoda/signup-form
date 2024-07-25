@@ -12,10 +12,10 @@ body, html {
     padding: 0;
 }
 
-.image-container {
+.left-child {
 }
 
-.form-container {
+.right-child {
     display: flex;
     flex: auto;
     flex-direction: column;
