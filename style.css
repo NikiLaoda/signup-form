@@ -7,6 +7,7 @@ body, html {
     height: 100vh;
 
     --bg-grey: #f8f9fa;
+    --btn-color: #596D48;
 }
 
 .hero-section {
@@ -83,6 +84,19 @@ body, html {
     gap: 1px;
 }
 
+.account-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    
+    margin: 0;
+    padding: 32px 0 0 48px;
+}
+
+.link-text {
+    font-size: 14px;
+}
 
 img {
     width: 40vw;
@@ -105,9 +119,25 @@ label {
 }
 
 input {
-    padding: 4px 112px 4px 6%;
+    padding: 4px 112px 4px 6px;
 }
 
 span {
     font-style: italic;
+}
+
+button {
+    background-color: var(--btn-color);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+
+    padding: 10px 32px 10px 32px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(29, 67, 67);
 }
