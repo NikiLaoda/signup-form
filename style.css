@@ -1,5 +1,6 @@
 body, html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
 
     margin: 0;
     padding: 0;
@@ -23,7 +24,7 @@ body, html {
     display: flex;
     flex-direction: column;
 
-    padding: 15vh 0 15vh 0;
+    padding: 18vh 0 18vh 0;
 }
 
 .text-container {
@@ -33,7 +34,6 @@ body, html {
     padding: 0 92px 0 32px;
     margin: 0;
 
-    font-size: 18px;
 }
 
 .intro-2 {
