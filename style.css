@@ -34,7 +34,7 @@ body, html {
     display: flex;
     flex-direction: column;
 
-    padding: 0 182px 0 32px;
+    padding: 0 156px 0 48px;
     margin: 0;
 
 }
@@ -53,14 +53,14 @@ body, html {
 }
 
 .form-p1 {
-    padding: 0 92px 16px 32px;
+    padding: 0 92px 16px 48px;
 }
 
 .form-child-grid {
     display: flex;
     flex-direction: row;
 
-    padding: 0 0 0 32px;
+    padding: 0 0 0 48px;
     margin: 0;
     gap: 72px;
 }
@@ -105,5 +105,9 @@ label {
 }
 
 input {
-    padding: 4px 64px 4px 6%;
+    padding: 4px 112px 4px 6%;
+}
+
+span {
+    font-style: italic;
 }
