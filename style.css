@@ -1,6 +1,6 @@
 body, html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
 
     margin: 0;
     padding: 0;
@@ -26,7 +26,7 @@ body, html {
     display: flex;
     flex-direction: column;
 
-    padding: 18vh 0 18vh 0;
+    padding: 15vh 0 15vh 0;
     background-color: var(--bg-grey);
 }
 
@@ -34,20 +34,20 @@ body, html {
     display: flex;
     flex-direction: column;
 
-    padding: 0 92px 0 32px;
+    padding: 0 182px 0 32px;
     margin: 0;
 
 }
 
-.intro-2 {
-    padding: 32px 0 64px 0;
+.intro-3 {
+    padding: 32px 0 48px 0;
 }
 
 .form-container {
     display: flex;
     flex-direction: column;
 
-    padding: 32px 0 32px 0;
+    padding: 24px 0 24px 0;
     background-color: white;
     box-shadow: 0 0 12px 1px rgba(128, 128, 128, 0.21);
 }
@@ -84,12 +84,6 @@ body, html {
 }
 
 
-
-label {
-    font-size: 14px;
-    color: rgb(45, 51, 64);
-}
-
 img {
     width: 40vw;
     height: 100vh;
@@ -101,4 +95,15 @@ img {
 p {
     margin: 0;
     padding: 0;
+}
+
+label {
+    font-size: 14px;
+    color: rgb(45, 51, 64);
+
+    letter-spacing: 1px;
+}
+
+input {
+    padding: 4px 64px 4px 6%;
 }
