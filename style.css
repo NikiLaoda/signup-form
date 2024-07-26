@@ -154,6 +154,9 @@ input {
     border-radius: 4px;
 }
 
+input:invalid {
+    border: 1px solid red;
+}
 
 input:hover {
     border-color: rgba(0, 0, 0, 0.371);
