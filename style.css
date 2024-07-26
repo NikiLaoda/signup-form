@@ -95,7 +95,7 @@ body, html {
 }
 
 .link-text {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 img {
@@ -120,6 +120,8 @@ label {
 
 input {
     padding: 4px 112px 4px 6px;
+    border: 1px solid;
+    border-radius: 4px;
 }
 
 span {
@@ -135,6 +137,7 @@ button {
     font-size: 16px;
 
     padding: 10px 32px 10px 32px;
+    box-shadow: 0 0 12px 1px rgba(128, 128, 128, 0.21);
 }
 
 a {
