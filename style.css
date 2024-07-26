@@ -156,6 +156,7 @@ input {
 
 input:invalid {
     border: 1px solid red;
+    transition-duration: 50ms;
 }
 
 input:hover {
