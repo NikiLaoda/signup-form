@@ -154,6 +154,11 @@ input {
     border-radius: 4px;
 }
 
+input:hover {
+    border-color: rgba(0, 0, 0, 0.371);
+    transition-duration: 50ms;
+}
+
 span {
     font-style: italic;
 }
@@ -166,8 +171,23 @@ button {
     font-weight: 500;
     font-size: 16px;
 
+    cursor: pointer;
+
     padding: 10px 32px 10px 32px;
     box-shadow: 0 0 12px 1px rgba(128, 128, 128, 0.21);
+}
+
+button:hover {
+    background-color: rgba(71, 155, 32, 0.71);
+    transition-duration: 100ms;
+    transition-delay: 100ms;
+}
+
+button:active {
+    background-color: black;
+    transition-duration: 100ms;
+    transition-delay: 100ms;
+    transition: ease;
 }
 
 a {
