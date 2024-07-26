@@ -154,6 +154,7 @@ input {
     border-radius: 4px;
 }
 
+
 input:hover {
     border-color: rgba(0, 0, 0, 0.371);
     transition-duration: 50ms;
@@ -193,4 +194,10 @@ button:active {
 a {
     text-decoration: none;
     color: rgb(29, 67, 67);
+}
+
+a:hover {
+    color: rgb(61, 182, 182);
+    transition-duration: 100ms;
+    transition-delay: 50ms;
 }
